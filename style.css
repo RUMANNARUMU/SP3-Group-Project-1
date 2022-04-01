@@ -1,0 +1,24 @@
+
+/*@import url("navigation.css");*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #006100;
+  
+  background-image: url("backgroundimage.jpg");
+  background-repeat: no-repeat;
+  background-size: 1366px 768px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+
+
