@@ -1,6 +1,9 @@
 # Software Project III - Group-Project
 #Project Name: "General Knowledge Quiz Website"
 
+#Course Title: Software Project III,
+
+#Course Code: CSE 226
 
 
 Group Members: 
