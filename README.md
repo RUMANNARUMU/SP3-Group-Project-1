@@ -1,5 +1,7 @@
 # Software Project III - Group-Project
-#Project Name: "Quiz Application"
+#Project Name: "General Knowledge Quiz Website"
+
+
 
 Group Members: 
 01. Mohammad Salman, ID: 201-15-14165
