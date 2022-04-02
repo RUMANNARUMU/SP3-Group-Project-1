@@ -7,4 +7,13 @@ const quizData = [
         d: "4th",
         correct: "c",
     },
+    
+    {
+        question: "Q : 02--> What is the capital of Bangladesh?",
+        a: "Dhaka",
+        b: "Chittagong",
+        c: "Rajshahi",
+        d: "Mymensingh",
+        correct: "a",
+    },
    
