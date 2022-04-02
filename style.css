@@ -17,6 +17,10 @@ body {
   overflow: hidden;
   margin: 0;
 }
-
+.wrapper{
+  width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
 
 
