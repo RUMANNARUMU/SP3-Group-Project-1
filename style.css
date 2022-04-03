@@ -35,4 +35,12 @@ header{
   font-size: 250%;
   
 }
+.quiz-container {
+  background-color: rgb(195, 109, 245);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 2px rgba(278, 134, 145, 0.4);
+  width: 700px;
+  overflow: hidden;
+}
+
 
