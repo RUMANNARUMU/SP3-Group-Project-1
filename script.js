@@ -17,3 +17,11 @@ const quizData = [
         correct: "a",
     },
    
+{
+        question: "Q : 03--> Where is the permanent campus of Daffodil International University?",
+        a: "Mirpur, Dhaka",
+        b: "Cumilla",
+        c: "Rangpur",
+        d: "Ashulia, Savar",
+        correct: "d",
+    },
