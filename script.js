@@ -33,4 +33,21 @@ const quizData = [
         c: "Microsoft",
         d: "WWW Consortium",
         correct: "d",
+          
+    },
+{
+        question: "Q : 05--> Choose the correct HTML element for the largest heading:",
+        a: "<h1>",
+        b: "<h6>",
+        c: "<heading>",
+        d: "<head>",
+        correct: "a",
+    },
+    {
+        question: "Q : 06--> What is the correct HTML element for inserting a line break?",
+        a: "<lb>",
+        b: "<break>",
+        c: "<br>",
+        d: "< >",
+        correct: "c",
     },
