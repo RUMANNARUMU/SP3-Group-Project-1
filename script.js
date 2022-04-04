@@ -25,3 +25,12 @@ const quizData = [
         d: "Ashulia, Savar",
         correct: "d",
     },
+
+      {
+        question: "Q : 04--> Who is making the Web standards?",
+        a: "Mozilla",
+        b: "Goofle",
+        c: "Microsoft",
+        d: "WWW Consortium",
+        correct: "d",
+    },
