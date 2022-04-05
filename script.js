@@ -67,20 +67,4 @@ const quizData = [
         d: "<^>",
         correct: "b",
     },
-    {
-        question: "Q : 09--> Which country will host 45th ICPC World Finals?",
-        a: "India",
-        b: "Saudi Arabia",
-        c: "Canada",
-        d: "Bangladesh",
-        correct: "d",
-    },
-{
-        question: "Q : 10--> Which university will host the upcoming ICPC as the first university from Southeast Asia to be held in Dhaka in November 2022?",
-        a: "Daffodil International University",
-        b: "BUET",
-        c: "Dhaka University",
-        d: "University of Asia Pacific",
-        correct: "d",
-    },
-];
+   
