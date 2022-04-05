@@ -51,3 +51,21 @@ const quizData = [
         d: "< >",
         correct: "c",
     },
+
+      {
+        question: "Q : 07--> What is the correct HTML element to define important text?",
+        a: "<b>",
+        b: "<important>",
+        c: "<strong>",
+        d: "<i>",
+        correct: "c",
+    },
+    {
+        question: "Q : 08--> Which character is used to indicate an end tag?",
+        a: "<<>",
+        b: "</>",
+        c: "<*>",
+        d: "<^>",
+        correct: "b",
+    },
+    
