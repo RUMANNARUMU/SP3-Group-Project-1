@@ -1,57 +1,102 @@
-const quizData = [
-    {
-        question: "Q : 01--> What is the rank of DIU among all private Universities of Bangladesh in QS Asia Rankings-2022?",
-        a: "1st",
-        b: "2nd",
-        c: "3rd",
-        d: "4th",
-        correct: "c",
-    },
-    {
-        question: "Q : 02--> What is the capital of Bangladesh?",
-        a: "Dhaka",
-        b: "Chittagong",
-        c: "Rajshahi",
-        d: "Mymensingh",
-        correct: "a",
-    },
-    {
-        question: "Q : 03--> Where is the permanent campus of Daffodil International University?",
-        a: "Mirpur, Dhaka",
-        b: "Cumilla",
-        c: "Rangpur",
-        d: "Ashulia, Savar",
-        correct: "d",
-    },
-    {
-        question: "Q : 04--> Who is making the Web standards?",
-        a: "Mozilla",
-        b: "Goofle",
-        c: "Microsoft",
-        d: "WWW Consortium",
-        correct: "d",
-    },
-    {
-        question: "Q : 05--> Choose the correct HTML element for the largest heading:",
-        a: "<h1>",
-        b: "<h6>",
-        c: "<heading>",
-        d: "<head>",
-        correct: "a",
-    },
-    {
-        question: "Q : 06--> What is the correct HTML element for inserting a line break?",
-        a: "<lb>",
-        b: "<break>",
-        c: "<br>",
-        d: "< >",
-        correct: "c",
-    },
-    {
-        question: "Q : 07--> What is the correct HTML element to define important text?",
-        a: "<b>",
-        b: "<important>",
-        c: "<strong>",
-        d: "<i>",
-        correct: "c",
-    },
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("backgroundimage.jpg");
+  background-repeat: no-repeat;
+  background-size: 1366px 768px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.wrapper{
+  width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+header{
+  background-color: rgb(102, 238, 238);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  font-family: Snell Roundhand, cursive;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 250%;
+  
+}
+
+.quiz-container {
+  background-color: rgb(195, 109, 245);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 2px rgba(278, 134, 145, 0.4);
+  width: 700px;
+  overflow: hidden;
+}
+
+.quiz-header {
+  padding: 3rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: rgb(44, 0, 4);
+  font-style: oblique;
+}
+
+h2 {
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+nav{
+  float: right;
+  margin-left: 1.5em;
+ 
+    font-size: medium;
+   background-color: rgb(193, 252, 252);
+    color: rgb(0, 0, 0);
+  
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+button {
+    background-color: rgb(160, 0, 152);
+  color: rgb(8, 177, 255);
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-family: Georgia, serif;
+  padding: 1.2rem;
+}
+
+button:hover {
+  background-color: #060008;
+}
+
+button:focus {
+  outline: none;
+  background-color: #4d2626;
+}
