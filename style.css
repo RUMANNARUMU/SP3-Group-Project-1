@@ -4,8 +4,6 @@
 }
 
 body {
-  background-color: #006100;
-  
   background-image: url("backgroundimage.jpg");
   background-repeat: no-repeat;
   background-size: 1366px 768px;
@@ -17,6 +15,7 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
 .wrapper{
   width: 700px;
   margin: 0 auto;
@@ -35,6 +34,7 @@ header{
   font-size: 250%;
   
 }
+
 .quiz-container {
   background-color: rgb(195, 109, 245);
   border-radius: 20px;
@@ -42,6 +42,7 @@ header{
   width: 700px;
   overflow: hidden;
 }
+
 .quiz-header {
   padding: 3rem;
   font-family: "Lucida Console", "Courier New", monospace;
@@ -54,15 +55,5 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin: 0;
-}
-nav{
-  float: right;
-  margin-left: 1.5em;
- 
-    font-size: medium;
-   background-color: rgb(193, 252, 252);
-    color: rgb(0, 0, 0);
-  
-
 }
 
