@@ -67,4 +67,11 @@ const quizData = [
         d: "<^>",
         correct: "b",
     },
-   
+   {
+        question: "Q : 08--> Which character is used to indicate an end tag?",
+        a: "<<>",
+        b: "</>",
+        c: "<*>",
+        d: "<^>",
+        correct: "b",
+    }, 
