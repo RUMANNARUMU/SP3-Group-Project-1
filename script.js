@@ -7,7 +7,6 @@ const quizData = [
         d: "4th",
         correct: "c",
     },
-    
     {
         question: "Q : 02--> What is the capital of Bangladesh?",
         a: "Dhaka",
@@ -16,8 +15,7 @@ const quizData = [
         d: "Mymensingh",
         correct: "a",
     },
-   
-{
+    {
         question: "Q : 03--> Where is the permanent campus of Daffodil International University?",
         a: "Mirpur, Dhaka",
         b: "Cumilla",
@@ -25,17 +23,15 @@ const quizData = [
         d: "Ashulia, Savar",
         correct: "d",
     },
-
-      {
+    {
         question: "Q : 04--> Who is making the Web standards?",
         a: "Mozilla",
         b: "Goofle",
         c: "Microsoft",
         d: "WWW Consortium",
         correct: "d",
-          
     },
-{
+    {
         question: "Q : 05--> Choose the correct HTML element for the largest heading:",
         a: "<h1>",
         b: "<h6>",
@@ -51,8 +47,7 @@ const quizData = [
         d: "< >",
         correct: "c",
     },
-
-      {
+    {
         question: "Q : 07--> What is the correct HTML element to define important text?",
         a: "<b>",
         b: "<important>",
@@ -60,12 +55,3 @@ const quizData = [
         d: "<i>",
         correct: "c",
     },
-    {
-        question: "Q : 08--> Which character is used to indicate an end tag?",
-        a: "<<>",
-        b: "</>",
-        c: "<*>",
-        d: "<^>",
-        correct: "b",
-    },
-    
