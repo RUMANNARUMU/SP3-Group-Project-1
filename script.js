@@ -7,7 +7,6 @@ const quizData = [
         d: "4th",
         correct: "c",
     },
-    
     {
         question: "Q : 02--> What is the capital of Bangladesh?",
         a: "Dhaka",
@@ -16,8 +15,7 @@ const quizData = [
         d: "Mymensingh",
         correct: "a",
     },
-   
-{
+    {
         question: "Q : 03--> Where is the permanent campus of Daffodil International University?",
         a: "Mirpur, Dhaka",
         b: "Cumilla",
@@ -25,18 +23,16 @@ const quizData = [
         d: "Ashulia, Savar",
         correct: "d",
     },
-
-      {
+    {
         question: "Q : 04--> Who is making the Web standards?",
         a: "Mozilla",
         b: "Goofle",
         c: "Microsoft",
         d: "WWW Consortium",
         correct: "d",
-          
-          
+
     },
-{
+    {
         question: "Q : 05--> Choose the correct HTML element for the largest heading:",
         a: "<h1>",
         b: "<h6>",
@@ -52,7 +48,7 @@ const quizData = [
         d: "< >",
         correct: "c",
     },
-     {
+
         question: "Q : 07--> What is the correct HTML element to define important text?",
         a: "<b>",
         b: "<important>",
@@ -68,6 +64,7 @@ const quizData = [
         d: "<^>",
         correct: "b",
     },
+
    {
         question: "Q : 09--> Which country will host 45th ICPC World Finals?",
         a: "India",
@@ -76,6 +73,7 @@ const quizData = [
         d: "Bangladesh",
         correct: "d",
     },
+
 {
         question: "Q : 10--> Which university will host the upcoming ICPC as the first university from Southeast Asia to be held in Dhaka in November 2022?",
         a: "Daffodil International University",
@@ -85,3 +83,4 @@ const quizData = [
         correct: "d",
     },
 ];
+
