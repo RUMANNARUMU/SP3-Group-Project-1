@@ -34,6 +34,7 @@ const quizData = [
         d: "WWW Consortium",
         correct: "d",
           
+          
     },
 {
         question: "Q : 05--> Choose the correct HTML element for the largest heading:",
