@@ -64,3 +64,14 @@ const quizData = [
         d: "<^>",
         correct: "b",
     },
+
+   {
+        question: "Q : 09--> Which country will host 45th ICPC World Finals?",
+        a: "India",
+        b: "Saudi Arabia",
+        c: "Canada",
+        d: "Bangladesh",
+        correct: "d",
+    },
+
+
