@@ -69,11 +69,11 @@ const quizData = [
         correct: "b",
     },
    {
-        question: "Q : 08--> Which character is used to indicate an end tag?",
-        a: "<<>",
-        b: "</>",
-        c: "<*>",
-        d: "<^>",
-        correct: "b",
-    }, 
-asdffhh
+        question: "Q : 09--> Which country will host 45th ICPC World Finals?",
+        a: "India",
+        b: "Saudi Arabia",
+        c: "Canada",
+        d: "Bangladesh",
+        correct: "d",
+    },
+
