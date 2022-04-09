@@ -76,4 +76,12 @@ const quizData = [
         d: "Bangladesh",
         correct: "d",
     },
-
+{
+        question: "Q : 10--> Which university will host the upcoming ICPC as the first university from Southeast Asia to be held in Dhaka in November 2022?",
+        a: "Daffodil International University",
+        b: "BUET",
+        c: "Dhaka University",
+        d: "University of Asia Pacific",
+        correct: "d",
+    },
+];
