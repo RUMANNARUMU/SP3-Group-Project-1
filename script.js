@@ -65,7 +65,9 @@ const quizData = [
         correct: "b",
     },
 
-   {
+  
+    
+    {
         question: "Q : 09--> Which country will host 45th ICPC World Finals?",
         a: "India",
         b: "Saudi Arabia",
@@ -73,13 +75,13 @@ const quizData = [
         d: "Bangladesh",
         correct: "d",
     },
-
-{
+    {
         question: "Q : 10--> Which university will host the upcoming ICPC as the first university from Southeast Asia to be held in Dhaka in November 2022?",
         a: "Daffodil International University",
         b: "BUET",
         c: "Dhaka University",
         d: "University of Asia Pacific",
+        d: "University of Asia Pacific"
         correct: "d",
     },
 ];
@@ -109,3 +111,22 @@ function loadQuiz() {
     c_text.innerText = currentQuizData.c
     d_text.innerText = currentQuizData.d
 }
+
+
+
+function deselectAnswers() {
+    answerEls.forEach(answerEl => answerEl.checked = false)
+}
+
+function getSelected() {
+    let answer
+
+    answerEls.forEach(answerEl => {
+        if(answerEl.checked) {
+            answer = answerEl.id
+        }
+    })
+
+    return answer
+}
+
