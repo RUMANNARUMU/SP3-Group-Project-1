@@ -111,3 +111,11 @@ function getSelected() {
 
     return answer
 }
+
+submitBtn.addEventListener('click', () => {
+    const answer = getSelected()
+    
+    if(answer) {
+        if(answer === quizData[currentQuiz].correct) {
+            score++
+        }
