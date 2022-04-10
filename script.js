@@ -151,4 +151,8 @@ submitBtn.addEventListener('click', () => {
                 <h2>"Many many thanks for your Participation."</h2>
                 <h2>"This project is created by: Mohammad Salman, Jannatul Maowa and Rumanna Aktar Rumu"</h2>
                 <button onclick="location.reload()">Play Again</button>
+            `
+        }
+    }
+})
 
