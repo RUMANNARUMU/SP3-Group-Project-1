@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+
+h2, h3{
+    margin: 0;
+}
+
+
+body{
+    background-color: #afffd7;
+    margin: 40px 0;
+    font-family: sans-serif;
+}
+
+.wrapper{
+
+    width: 900px;
+    margin: 0 auto;
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+}
+
+header{
+    overflow: hidden;
+    padding: 41px;
+    font-size: 280%;
+    font-style: inherit;
+    font-family: Apple Chancery, cursive;
+    font-weight: 540;
+    background-color: rgb(3, 68, 112);
+    font-feature-settings: "jalt";
+    color: rgb(255, 255, 255);
+}
+
+header > #logo{
+    float: left;
+    font-size: 2em;
+    font-family: monospace;
+}
+
+nav{
+    float: right;
+    font-size: medium;
+    background-color: rgb(245, 153, 153);
+    color: rgb(255, 255, 255);
+    
+
+}
+
+main{
+    padding: 70px;
+    overflow: hidden;
+    
+}
+
+section{
+    width: 70%;
+    float: left;
+}
+article{
+    padding: 30px 0;
+    border-bottom: 1px solid #4586de;
+}
+article :last-child{
+    border-bottom: 0px;
+}
+
+aside{
+    float: right;
+    float : right;
+    background-color: #6756ff;
+    padding: 10px;
+}
+aside h3{
+    background-color: rgb(255, 255, 255);
+    color: #01160b;
+    padding: 10px;
+    font-style: oblique;
+}
+aside a{
+    color: rgb(0, 0, 0);
+}
+
+footer{
+    padding: 20px;
+    border-top: 3px solid rgb(189, 86, 86);
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
