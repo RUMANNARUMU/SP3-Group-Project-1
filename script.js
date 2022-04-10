@@ -139,3 +139,16 @@ submitBtn.addEventListener('click', () => {
             score++
         }
 
+        
+        currentQuiz++
+
+        if(currentQuiz < quizData.length) {
+            loadQuiz()
+        } else {
+            quiz.innerHTML = `
+                <h2>Your Total Score is : ${score} !</h2>
+                <h2>Total Questions : ${quizData.length} </h2>
+                <h2>"Many many thanks for your Participation."</h2>
+                <h2>"This project is created by: Mohammad Salman, Jannatul Maowa and Rumanna Aktar Rumu"</h2>
+                <button onclick="location.reload()">Play Again</button>
+
